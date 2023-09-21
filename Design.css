@@ -1,0 +1,97 @@
+
+.container {
+    padding: 20px;
+    background-color: green;
+    background: linear-gradient(140deg, #dc3545, #007BFF);
+    width: 100%;
+    min-height: 90vh;
+}
+
+.todo-task h1 {
+    display: flex;
+    color: black;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px ;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(/Users/priyankakondaparthi/Desktop/TODOLIST/checked_todolist.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 7px;
+
+}
+ul li.checked{
+    color: #444;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(/Users/priyankakondaparthi/Desktop/TODOLIST/checked1.webp);
+}
+
+.todo-task{
+    width: 100%;
+    max-width: 440px;
+    background-color: aqua;
+    margin: 100px auto 20px;
+    padding: 40px 20px 50px;
+    border-radius: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+button{
+    size: 2px;
+    cursor: pointer;
+    border: none;
+    padding: 15px 45px;
+    background: goldenrod;
+    color: darkgreen;
+    border-radius: 10px;
+}
+
+input{
+    flex: 1;
+    background: transparent;
+    padding: auto;
+    font-weight: 13px;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 35px;
+    height: 34px;
+    font-size: 22px ;
+    line-height: 35px;
+    text-align: center;
+    color: violet  ;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background: dimgrey;
+}
