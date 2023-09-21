@@ -1,0 +1,95 @@
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: firebrick;
+}
+header {
+
+    background-color: #333;
+    color: brown;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: upper-latin;
+    color: blue;
+    align-items: center;
+    text-align: center;
+}
+
+nav li {
+    color: black;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: black;
+    color: navy;
+    background-color: chartreuse;
+
+    color: violet;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+} 
+
+img {
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+section {
+    font-style: italic;
+    color: darkgreen;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgreen;
+    color: yellow;
+    size: 10cm;
+}
+
+h2 {
+    color: darkgreen;
+    background-color: yellow;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    background-color: seashell;
+    color: darkgoldenrod;
+    font-style: initial;
+}
+
+img {
+    height: 4cm;
+    width: 3cm;
+    
+    margin-left: auto;
+
+}
+
+h4 {
+    color: tomato;
+}
+
+head {
+    text-align: left;
+    background-color: olive;
+}
+
+button{
+    background: yellowgreen;
+    cursor: pointer;
+}
